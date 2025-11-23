@@ -1,0 +1,131 @@
+/* Hero Section */
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 120px;
+    overflow: hidden;
+}
+
+.hero-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #4a5568;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.hero-subtitle {
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: #718096;
+    letter-spacing: 8px;
+}
+
+.divider {
+    width: 250px;
+    height: 3px;
+    background: linear-gradient(90deg, #c084fc 0%, #e9d5ff 100%);
+    margin: 2rem 0;
+}
+
+.hero-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #a0aec0;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+
+.cta-button {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+}
+
+/* Hero Illustration */
+.hero-illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration-bg {
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: float 6s ease-in-out infinite;
+}
+
+.hero-image {
+    width: 120%;
+    height: 120%;
+    object-fit: contain;
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Hero Small (for other pages) */
+.hero-section-small {
+    padding: 150px 0 3rem;
+    position: relative;
+    z-index: 10;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4a5568;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: #a0aec0;
+    text-align: center;
+}

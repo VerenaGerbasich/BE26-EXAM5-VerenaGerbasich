@@ -1,0 +1,2 @@
+# This file ensures the animals directory is tracked by Git
+# while ignoring the uploaded image files
