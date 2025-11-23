@@ -44,7 +44,7 @@ $pet_id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
     </header>
 
     <!-- Login Required Section -->
-    <section class="details-section" style="min-height:calc(100vh - 200px);display:flex;align-items:center;padding:2rem 0;">
+    <section class="details-section" style="min-height:calc(100vh - 200px);display:flex;align-items:center;padding-bottom:2rem;">
         <div class="details-container">
             <a href="../home.php" class="back-link" style="margin-bottom:1.25rem;display:inline-block;">← Back to all pets</a>
             
